@@ -1043,6 +1043,13 @@
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
 
+		background-color: _palette(fg-bold);
+		color: _palette(bg);
+
+		h4 {
+			color: _palette(bg);
+		}
+
 		.image {
 			@include vendor('order', '1');
 			border-radius: 0;
@@ -1054,6 +1061,47 @@
 			}
 		}
 
+		.bold-text {
+			font-weight: bold;
+		}
+	
+		.medium-text {
+			font-size: 0.9em;
+		}
+		.smaller-text {
+			font-size: 0.8em;
+		}
+	
+		.flex-box {
+			display: flex;
+		}
+	
+		.product-image {
+			height: 200px !important;
+			width: auto !important;
+			border-radius: 20px !important;
+		}
+	
+		.flex-space-between {
+			justify-content: space-between;
+		}
+	
+		.text-right {
+			text-align: right;
+		}
+	
+		.text-over-image {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+			background-color: _palette(accent1, bg);
+			//background-color: rgba(43, 52, 61, 0.76);
+			width: 100%;
+			padding-top: 1em;
+		}
+
 		.content {
 			@include padding(2em, 4em);
 			@include vendor('order', '2');
@@ -1063,14 +1111,6 @@
 
 		&:nth-child(2n) {
 			@include vendor('flex-direction', 'row-reverse');
-		}
-
-		@for $i from 1 through _misc(max-spotlights) {
-			$j: 0.075 * $i;
-
-			&:nth-child(#{$i}) {
-				background-color: rgba(0,0,0, $j);
-			}
 		}
 
 		@include breakpoint('<=large') {
