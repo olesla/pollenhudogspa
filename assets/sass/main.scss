@@ -1983,6 +1983,10 @@
 			justify-content: end;
 		}
 
+		.image-left {
+			background-position: left !important;
+		}
+
 		.image-bottom {
 			background-position: bottom;
 		}
@@ -2040,8 +2044,27 @@
 			text-align: right;
 		}
 
+		.map-wrapper {
+			.googleMap{
+				position: relative;
+				height: 0;
+				padding-bottom: 14em;
+				.google-map-iframe{
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 20em;
+					
+				  }
+			  }
+		}
+		  
+		
+		
+
 		.wrapper.style3 {
-			background-color: #c16fbd;
+			background-color: #a3479f;
 			.inner {
 				.major {
 					p {
@@ -2051,24 +2074,48 @@
 				div.row {
 					div.col-6 {
 						div.employee-card {
+							margin-top: -4em;
+							&:hover {
+								div.employee-image-container {
+									div.employee-image {
+										filter: grayscale(0%);
+									}
+								}
+							}
 							background-color: white;
-							div.employee-image-container {
-								background-color: #c16fbd;
-								display: flex;
-    							justify-content: center;
-								height: 10em;
+							div.employee-info-container {
+								height: 20em;
+								margin-top: 3em;
 								h1 {
 									color: black !important;
 								}
+								p.title {
+								}
+								p.employee-description {
+									font-size: 0.8em;
+									color: black;
+									padding: 0 2em 3em 2em;
+								}
+								padding-top: 4em;
+							}
+							div.employee-image-container {
+								background-color: #a3479f;
+								display: flex;
+    							justify-content: center;
+								height: 10em;
 								width: 100%;
 								div.employee-image {
-									height: inherit;
-									width: 10em;
+									box-shadow: 0px 0px 0px 1px #a443a1;
+									border: 3px solid white;
+									height: 13em;
+									width: 11em;
+									margin-top: 3em;
 									border-radius: 100%;
 									background-position: inherit;
 									background-position-x: center;
 									background-repeat: no-repeat;
 								}
+
 							}
 						}
 					}
