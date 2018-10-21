@@ -3245,13 +3245,49 @@ section#two .flex-box {
 section#two .product-info {
   flex-direction: column;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: end;
+}
+section#two .image-bottom {
+  background-position: bottom;
+}
+section#two .image-right {
+  background-position: right;
 }
 section#two .product-image {
-  height: 200px !important;
-  width: auto !important;
+  /*height: 200px !important;
+  width: 200px !important;*/
+  height: 10em;
+  width: 10em;
   border-radius: 5px;
   box-shadow: 1px 1px 3px 0px grey;
+  background-size: cover;
+  margin-right: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+section#two .product-image:hover {
+  cursor: pointer;
+}
+section#two .product-image:hover a {
+  background-color: #c16fbd;
+  color: white !important;
+}
+section#two .product-image div {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  border-top: 1px solid #1d242a1c;
+}
+section#two .product-image div a {
+  color: black !important;
+  background-color: #ffffffd9;
+  border-radius: 0px;
+}
+section#two .product-image div a:hover {
+  background-color: #c16fbd;
+  color: white !important;
 }
 section#two .product-price-button {
   box-shadow: 1px 1px 3px 0px #d3d4e4 !important;
@@ -3261,6 +3297,33 @@ section#two .flex-space-between {
 }
 section#two .text-right {
   text-align: right;
+}
+section#two .wrapper.style3 {
+  background-color: #c16fbd;
+}
+section#two .wrapper.style3 .inner .major p {
+  color: white;
+}
+section#two .wrapper.style3 .inner div.row div.col-6 div.employee-card {
+  background-color: white;
+}
+section#two .wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-image-container {
+  background-color: #c16fbd;
+  display: flex;
+  justify-content: center;
+  height: 10em;
+  width: 100%;
+}
+section#two .wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-image-container h1 {
+  color: black !important;
+}
+section#two .wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-image-container div.employee-image {
+  height: inherit;
+  width: 10em;
+  border-radius: 100%;
+  background-position: inherit;
+  background-position-x: center;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=main.css.map */
