@@ -1947,6 +1947,16 @@
 		}
 	}
 
+	.product-table {
+		tbody {
+			tr {
+				td.text-right {
+					text-align: right;
+				}
+			}
+		}
+	}
+
 	section#two {
 		padding: 0 5em 0 5em;
 		background-color: white;
@@ -2059,10 +2069,8 @@
 				  }
 			  }
 		}
-		  
-		
-		
 
+		  
 		.wrapper.style3 {
 			background-color: #a3479f;
 			.inner {
@@ -2121,5 +2129,17 @@
 					}
 				}
 			}
+		}
+	}
+
+	div.product-category-container {
+		display: flex;
+		justify-content: space-between;
+		align-content: flex-end;
+		div.table-wrapper {
+			/*width: 100%;*/
+		}
+		div.product-category-left {
+			
 		}
 	}

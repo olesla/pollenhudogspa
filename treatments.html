@@ -1,0 +1,381 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Spectral by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Spectral</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="generic.html">Generic</a></li>
+											<li><a href="elements.html">Elements</a></li>
+											<li><a href="#">Sign Up</a></li>
+											<li><a href="#">Log In</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>Behandlinger</h2>
+							<p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+								<div id="app">
+									<div v-for="productCategory in productCategories">
+										<div class="product-category-container">
+											<div class="product-category-left">
+												<img src="images/products/manicure.jpg" alt="" style="width: 200px; height: 200px;">
+												<h2>{{ productCategory.name }}</h2>
+											</div>
+											<div class="table-wrapper">
+												<table class="product-table">
+													<thead>
+														<tr>
+															<th>Navn</th>
+															<th>Pris</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr v-for="product in productCategory.products">
+															<td>{{ product.name }}</td>
+															<td class="text-right">{{ formatPrice(product.price) }}</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+			var app = new Vue({
+			el: '#app',
+				data: {
+					productCategories: [
+						{
+							name: 'Manikyr',
+							products: [
+								{
+									name: 'Enkel manikyr med lakk (45 minutter)',
+									price: 490,
+								},
+								{
+									name: 'Enkel manikyr med gelish-lakk (varer opptil 2-3 uker)',
+									price: 590,
+								},
+								{
+									name: 'Fjerning av gelish',
+									price: 250,
+								}
+							]
+						},
+						{
+							name: 'Pedikyr',
+							products: [
+								{
+									name: 'Fotpleie (45 minutter)',
+									price: 650,
+								},
+								{
+									name: 'Fotpleie med gelish',
+									price: 890,
+								},
+								{
+									name: 'Neglelakk',
+									price: 190,
+								}
+							]
+						},
+						{
+							name: 'Massasje',
+							products: [
+								{
+									name: 'Aroma-massasje (60 minutter)',
+									price: 870,
+								},
+								{
+									name: 'Aroma-massasje:Rygg og nakke (30 minutter)',
+									price: 490,
+								}
+							]
+						},
+						{
+							name: 'Spabehandling',
+							products: [
+								{
+									name: 'Boblebad med salter eller eteriske oljer (20 minutter)',
+									price: 300,
+								},
+								{
+									name: 'Topp til tå kroppspeeling (25 minutter)',
+									price: 550,
+								},
+								{
+									name: 'Topp til tå kroppspeeling, innpakning med maske og varmeteppe (50 minutter)',
+									price: 990,
+								},
+								{
+									name: '“Spa-opplevelsen”: Topp til tå kroppspeeling, innpakning med maske og varmeteppe, hel kroppsmassasje (110 minutter)',
+									price: 1690,
+								},
+								{
+									name: '“Spa-opplevelsen luksus”: Topp til tå-kroppsspeeling, innpakning med maske og varmeteppe, hel kroppsmassasje, ansiktsbehandling tilpasset hudtype (3 timer og 20 minutter)',
+									price: 2450,
+								},
+								{
+									name: '“Total velvære”: Boblebad, innsmøring av hele kroppen med bodylotion, rygg- og nakkemassasje, ansiktsdyprens (120 minutter)',
+									price: 1650,
+								},
+								{
+									name: '“Topp til tå-spesial”: Boblebad, innsmøring av hele kroppen med bodylotion, avslappende fot- og leggmassasje eller hodebunnsmassasje, valgfri spesialbehandling for ansiktet (120 minutter)',
+									price: 1650,
+								},
+								{
+									name: '“Til mannen”: Ansiktsdyprens, rygg-, nakke- og hodebunnsmassasje (80 minutter)',
+									price: 1190,
+								}
+							],
+						},
+						{
+							name: 'Hudpleie',
+							products: [
+								{
+									name: 'Ansiktsbehandling med massasje (skulder og ansikt) (80 minutter)',
+									price: 890,
+								},
+								{
+									name: 'Ansiktsbehandling (dyprens) (50 minutter)',
+									price: 690,
+								},
+								{
+									name: 'EA pro behandlig m/massasje (75 minutter)',
+									price: 990,
+								},
+								{
+									name: 'EA pro behandlig (50 minutter)',
+									price: 850,
+								},
+								{
+									name: 'EA pro pensling (20 minutter)',
+									price: 490,
+								},
+								{
+									name: 'Power peel-behandling (50 minutter)',
+									price: 990,
+								},
+								{
+									name: 'Power peel + lift behandling (75 minutter)',
+									price: 1290,
+								},
+								{
+									name: 'Power peel + lift + spesialmaske (80 minutter)',
+									price: 1490,
+								},
+								{
+									name: 'Guinot-hydradermie (80 minutter)',
+									price: 1090,
+								},
+								{
+									name: 'Guinot-hydradermie luksus (110 minutter)',
+									price: 1290,
+								},
+								{
+									name: 'Peel-in (75 minutter)',
+									price: 990,
+								},
+								{
+									name: 'Liftosome (75 minutter)',
+									price: 990,
+								},
+								{
+									name: 'Easy TCA Peel: Pigmentflekk',
+									price: 400,
+								}
+							]
+						},
+						{
+							name: 'Makeup',
+							products: [
+								{
+									name: 'Kvelds- /selskapsmake-up',
+									price: 650,
+								},
+								{
+									name: 'Brudemake-up (inkluderer 30 minutters prøvetime)',
+									price: 1400,
+								},
+								{
+									name: 'Make-up med veiledning',
+									price: 700,
+								},
+								{
+									name: 'Enkel make-up etter behandling',
+									price: 100,
+								},
+							]
+						},
+						{
+							name: 'Vipper og bryn',
+							products: [
+								{
+									name: 'Permanentfarging: Vipper og bryn (inkl. voks eller napp)',
+									price: 450,
+								},
+								{
+									name: 'Vipper med forming av bryn',
+									price: 350,
+								},
+								{
+									name: 'Vipper',
+									price: 290,
+								},
+								{
+									name: 'Bryn med forming',
+									price: 350,
+								},
+								{
+									name: 'Microblading: Hele bryn',
+									price: 3900,
+								},
+								{
+									name: 'Microblading: “Korrigering”: Utfylling av hull i bryn',
+									price: 2500,
+								},
+								{
+									name: 'Microblading: Påfyll etter 4-6 uker',
+									price: 1500,
+								},
+								{
+									name: 'Microblading: Påfyll etter 1-3 år',
+									price: 2500,
+								},
+								{
+									name: 'Microblading: Konsultasjonstime (30 min.) ',
+									price: 300,
+								},
+								{
+									name: 'Vippe extensions: Vippe extension (2 timer)',
+									price: 1500
+								},
+								{
+									name: 'Vippe extensions: Påfyll etter 2/3/4 uker',
+									price: 600,
+								}
+							],
+						},
+						{
+							name: 'Vokbehandling',
+							products: [
+								{
+									name: 'Legger',
+									price: 370,
+								},
+								{
+									name: 'Lår',
+									price: 370,
+								},
+								{
+									name: 'legger/lår/bikini',
+									price: 850,
+								},
+								{
+									name: 'bikini',
+									price: 250,
+								},
+								{
+									name: 'armer',
+									price: 370,
+								},
+								{
+									name: 'armhuler',
+									price: 250,
+								},
+								{
+									name: 'rygg',
+									price: 450,
+								},
+								{
+									name: 'hake',
+									price: 180,
+								},
+								{
+									name: 'overleppe',
+									price: 170,
+								},
+								{
+									name: 'hele ansikt',
+									price: 220,
+								},
+								{
+									name: 'Forming av bryn (voks eller napp)',
+									price: 190,
+								},
+							]
+						}
+					],
+				},
+				methods: {
+					formatPrice (number) {
+						return new Intl.NumberFormat('de-DE', {}).format(number);
+					},
+				},
+			})
+</script>
+
+	</body>
+</html>

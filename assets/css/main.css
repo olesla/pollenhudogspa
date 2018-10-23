@@ -3214,6 +3214,10 @@ section#one header.major h2 {
   color: black;
 }
 
+.product-table tbody tr td.text-right {
+  text-align: right;
+}
+
 section#two {
   padding: 0 5em 0 5em;
   background-color: white;
@@ -3356,6 +3360,15 @@ section#two .wrapper.style3 .inner div.row div.col-6 div.employee-card div.emplo
   background-position: inherit;
   background-position-x: center;
   background-repeat: no-repeat;
+}
+
+div.product-category-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+}
+div.product-category-container div.table-wrapper {
+  /*width: 100%;*/
 }
 
 /*# sourceMappingURL=main.css.map */
