@@ -2139,11 +2139,16 @@
 			background-color: #fdfbfd;
 			border-bottom: 1px solid #f9f5f9;
 		}
-		.description {
+		.treatment-description {
 			display: block;
 			color: #ada7ad;
 			font-size: 80%;
 			padding: 0 3em 0em;
+		}
+		.description {
+			display: block;
+			color: #ada7ad;
+			font-size: 80%;
 		}
 		div.product-category-container {
 			display: flex;
@@ -2158,12 +2163,15 @@
 				/*width: 100%;*/
 				width: 60%;
 				text-align: center;
+				h5 {
+					margin-bottom: 0.5em;
+				}
 				table {
 					text-align: left;
 					border-collapse: unset;
 					font-size: 80%;
 					tr {
-						box-shadow: -1px -1px 0px 0px #ececec;
+						box-shadow: 0px -1px 0px 0px #ececec;
 					}
 					tr:nth-child(2n+1) {
 						background-color: white !important;
@@ -2173,6 +2181,11 @@
 						color: #ada7ad;
 						padding: unset;
 					}
+				}
+				.sub-category-container {
+					border: 1px solid #eee;
+					padding: 1em;
+					margin-bottom: 0.5em;
 				}
 			}
 			div.product-category-left {
@@ -2193,4 +2206,8 @@
 				}
 			}
 		}
+	}
+
+	.pointer {
+		cursor: pointer;
 	}

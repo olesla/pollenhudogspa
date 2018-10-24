@@ -3370,11 +3370,16 @@ div.product-category h2 {
   background-color: #fdfbfd;
   border-bottom: 1px solid #f9f5f9;
 }
-div.product-category .description {
+div.product-category .treatment-description {
   display: block;
   color: #ada7ad;
   font-size: 80%;
   padding: 0 3em 0em;
+}
+div.product-category .description {
+  display: block;
+  color: #ada7ad;
+  font-size: 80%;
 }
 div.product-category div.product-category-container {
   display: flex;
@@ -3389,13 +3394,16 @@ div.product-category div.product-category-container div.table-wrapper {
   width: 60%;
   text-align: center;
 }
+div.product-category div.product-category-container div.table-wrapper h5 {
+  margin-bottom: 0.5em;
+}
 div.product-category div.product-category-container div.table-wrapper table {
   text-align: left;
   border-collapse: unset;
   font-size: 80%;
 }
 div.product-category div.product-category-container div.table-wrapper table tr {
-  box-shadow: -1px -1px 0px 0px #ececec;
+  box-shadow: 0px -1px 0px 0px #ececec;
 }
 div.product-category div.product-category-container div.table-wrapper table tr:nth-child(2n+1) {
   background-color: white !important;
@@ -3404,6 +3412,11 @@ div.product-category div.product-category-container div.table-wrapper table .des
   display: block;
   color: #ada7ad;
   padding: unset;
+}
+div.product-category div.product-category-container div.table-wrapper .sub-category-container {
+  border: 1px solid #eee;
+  padding: 1em;
+  margin-bottom: 0.5em;
 }
 div.product-category div.product-category-container div.product-category-left {
   width: 35%;
@@ -3419,6 +3432,10 @@ div.product-category div.product-category-container div.product-category-left {
 div.product-category div.product-category-container div.product-category-left img {
   border-radius: 4px;
   box-shadow: 1px 1px 3px 0px grey;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

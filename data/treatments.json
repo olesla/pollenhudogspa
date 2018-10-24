@@ -1,0 +1,372 @@
+[
+	{
+		"name": "Manikyr",
+		"image": "images/products/manicure.jpg",
+		"description": "Neglene dine files og formes, neglbåndene pleies og neglene dine er klare for en neglelakk. Produktmerkene våres er Gehwol, Mineral Fusion og Gelish.",
+		"products": [
+			{
+				"name": "Enkel manikyr med lakk",
+				"description": "45 minutter",
+				"price": 490
+			},
+			{
+				"name": "Enkel manikyr med gelish-lakk",
+				"description": "Harmony gelish er en permanent lakk som sitter i opp til 3 uker! Dette er en perfekt behandling for deg som ønsker maks holdbarhet. Flott på naturlige eller kunstige negler, både på hender og føtter. Varer opptil 2-3 uker",
+				"price": 590
+			},
+			{
+				"name": "Fjerning av gelish",
+				"price": 250
+			}
+		]
+	},
+	{
+		"name": "Pedikyr",
+		"image": "images/products/pedicure.jpg",
+		"description": "Få en grundig fotpleie med fotbad, rens og filing av negler/neglbånd og sliping av hard hud. I tillegg gir vi en avslappende fotmassasje som er perfekt for å gi ny energi til slitene og trøtte føtter.",
+		"products": [
+			{
+				"name": "Fotpleie",
+				"description": "45 minutter",
+				"price": 650
+			},
+			{
+				"name": "Fotpleie med gelish",
+				"description": "Harmony gelish er en permanent lakk som sitter i opp til 3 uker! Dette er en perfekt behandling for deg som ønsker maks holdbarhet. Flott på naturlige eller kunstige negler, både på hender og føtter.",
+				"price": 890
+			},
+			{
+				"name": "Neglelakk",
+				"price": 190
+			}
+		]
+	},
+	{
+		"name": "Massasje",
+		"image": "images/products/massage.jpg",
+		"description": "Behagelig og beroligende massasje med essensielle oljer. Løser opp anspent muskulatur, og stimulerer sansene med behagelige dufter og perfekt avkobling i en hektisk hverdag. <br><br> I kroppsbehandlingene bruker vi i første rekke de nydelige Kalahari-produktene. Spør oss gjerne om veiledning vedrørende ulike kroppsbehandlinger. Vi skreddersyr for deg.",
+		"products": [
+			{
+				"name": "Aroma-massasje",
+				"description": "60 minutter",
+				"price": 870
+			},
+			{
+				"name": "Aroma-massasje",
+				"description": "30 minutter. Rygg og nakke",
+				"price": 490
+			}
+		]
+	},
+	{
+		"name": "Spabehandling",
+		"image": "images/products/spa.jpg",
+		"products": [
+			{
+				"name": "Boblebad med salter eller eteriske oljer",
+				"description": "20 minutter",
+				"price": 300
+			},
+			{
+				"name": "Topp til tå kroppspeeling",
+				"description": "25 minutter",
+				"price": 550
+			},
+			{
+				"name": "Topp til tå kroppspeeling",
+				"description": "50 minutter. Innpakning med maske og varmeteppe",
+				"price": 990
+			},
+			{
+				"name": "Spa-opplevelsen",
+				"description": "110 minutter. Topp til tå kroppspeeling, innpakning med maske og varmeteppe, hel kroppsmassasje",
+				"price": 1690
+			},
+			{
+				"name": "Spa-opplevelsen luksus",
+				"description": "3 timer og 20 minutter. Topp til tå-kroppsspeeling, innpakning med maske og varmeteppe, hel kroppsmassasje, ansiktsbehandling tilpasset hudtype",
+				"price": 2450
+			},
+			{
+				"name": "Total velvære",
+				"description": "120 minutter. Boblebad, innsmøring av hele kroppen med bodylotion, rygg- og nakkemassasje, ansiktsdyprens",
+				"price": 1650
+			},
+			{
+				"name": "Topp til tå-spesial",
+				"description": "120 minutter. Boblebad, innsmøring av hele kroppen med bodylotion, avslappende fot- og leggmassasje eller hodebunnsmassasje, valgfri spesialbehandling for ansiktet",
+				"price": 1650
+			},
+			{
+				"name": "Til mannen",
+				"description": "80 minutter. Ansiktsdyprens, rygg-, nakke- og hodebunnsmassasje",
+				"price": 1190
+			}
+		]
+	},
+	{
+		"name": "Hudpleie",
+		"image": "images/products/facial.jpg",
+		"categories": [
+			{
+				"name": "Ansiktsbehandling / dyprens",
+				"description": "Behandlingen har fokus på å dyprense huden, men er også en fin start for deg som er usikker på hva huden din trenger. Behandlingen skreddersys etter dine behov, og består av rens, peeling, damp, maske og avsluttende krem. Anbefales også som jevnlig pleie og 6-8 ukers mellom rom. Denne behandlingen egner seg også ved uren hud på rygg.",
+				"displayDescription": false,
+				"products": [
+					{
+						"name": "Ansiktsbehandling",
+						"description": "50 minutter. Dyprens",
+						"price": 690
+					}
+				]
+			},
+			{
+				"name": "Ansiktsbehandling med massasje",
+				"description": "Behandlingen har fokus på å dyprense huden, men er også en fin start for deg som er usikker på hva huden din trenger. Behandlingen skreddersys etter dine behov, og består av rens, peeling, damp, utklemming, maske, ansikts- og skuldermassasje og avsluttende krem. Anbefales også som jevnlig pleie med 6 til 8 ukers mellomrom.",
+				"displayDescription": false,
+				"products": [
+					{
+						"name": "Ansiktsbehandling med massasje",
+						"description": "80 minutter. Skulder og ansikt",
+						"price": 890
+					}
+				]
+			},
+			{
+				"name": "Elizabeth Arden PRO",
+				"description": "Elizabeth Arden PROs profesjonelle behandlinger er utviklet for å gi deg en pangstart på hudpleierutinen sammen med Elizabth Arden PROs hjemmeprodukter. Hensikten er å øke hjemmeproduktenes effekt, slik at resultatet synes raskest. De høyeffektive profesjonelle produktene har to funksjoner; huden ser yngre ut, samtidig som de tar deg ett steg videre i behandlingen.<br><br> Styrken til Elizabeth Arden PROs behandlinger er kjemiske peelinger for ulike hudproblem utviklet for å gi raske resulteter uten negative effekter. I hver tilpassede behandling inkluderes det et personlig hudpleieprogram, for å sikre at de mest aktuelle produktene brukes for å gi maksimale effekter.",
+				"displayDescription": false,
+				"products": [
+					{
+						"name": "EA pro behandlig m/massasje",
+						"description": "75 minutter",
+						"price": 990
+					},
+					{
+						"name": "EA pro behandlig",
+						"description": "50 minutter",
+						"price": 850
+					},
+					{
+						"name": "EA pro pensling",
+						"description": "20 minutter",
+						"price": 490
+					}
+				]
+			},
+			{
+				"name": "Liftosome",
+				"description": "Guinot behandlingen er en glødgivende og oppstrammende behandling som gir mye næring til huden. Vi bruker et pro collagen consentrat med en thermolift maske over. De aktive ingrediensene trekker dypt ned i huden og gir deg en ny yngre hud.",
+				"displayDescription": false,
+				"products": [
+					{
+						"name": "Liftosome",
+						"description": "75 minutter",
+						"price": 990
+					}
+				]
+			},
+			{
+				"name": "Guinot hydraermie",
+				"description": "Dette er en eksklusiv Guinot behandling som gjør huden ungdommelig og strålende fra første behandling. Hele syv forskjellige behandlinger er tilgjengelige, avhengig av ditt mål og hudtype.<br><br> Dobbel ionisering – aktive ingredienser med positive og negative ioner penetrerer raskt ned i hudvevet og gir en dyptvirkende fuktighet.<br><br> Oksygenering – jevner og lysner huden ved å stimulerer mikrosirkulasjonen og øker oksygenopptaket i cellene.",
+				"displayDescription": false,
+				"products": [
+					{
+						"name": "Guinot-hydradermie",
+						"description": "80 minutter",
+						"price": 1090
+					},
+					{
+						"name": "Guinot-hydradermie luksus",
+						"description": "110 minutter",
+						"price": 1290
+					}
+				]
+			},
+			{
+				"name": "Power Peel / Power Lift",
+				"description": "Dyptgående peelingbehandling for alle hudtyper, store porer, hyperkeratoser, fet/blank hud, solskadet hud, linjer og rynker.<br><br> Microneedling, som er smertefri i forhold til andre typer. Perforerer huden 100.000 ganger pr. behandling – skader heller ikke huden.",
+				"displayDescription": false,
+				"products": [
+					{
+						"name": "Power peel-behandling",
+						"description": "50 minutter",
+						"price": 990
+					},
+					{
+						"name": "Power peel og lift behandling",
+						"description": "75 minutter",
+						"price": 1290
+					},
+					{
+						"name": "Power peel, lift og spesialmaske",
+						"description": "80 minutter.",
+						"price": 1490
+					},
+					{
+						"name": "Peel-in",
+						"description": "75 minutter",
+						"price": 990
+					},
+					{
+						"name": "Easy TCA Peel",
+						"description": "Pigmentflekk",
+						"price": 400
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Makeup",
+		"image": "images/products/makeup.jpg",
+		"products": [
+			{
+				"name": "Kvelds- /selskapsmake-up",
+				"description": "En komplett dag eller kvelds makeup som er tilpasses dine ønsker",
+				"price": 650
+			},
+			{
+				"name": "Brudemake-up",
+				"description": "En fantastisk og varig makeup for brud eller forlover på den store dagen. En prøvetime er inkludert. Prøvetimen er ikke en fullstendig makeup, men mer en forberedelse i forkant, der vi blir enige om farger og blir litt kjent dersom du er ny hos oss.",
+				"price": 1400
+			},
+			{
+				"name": "Make-up med veiledning",
+				"description": "Personlig veiledning og råd om våre produkter, påføringstekknikker og anbefalinger med bakgrunn i ditt unike utgangspunkt og ønsker",
+				"price": 700
+			},
+			{
+				"name": "Enkel make-up etter behandling",
+				"price": 100
+			}
+		]
+	},
+	{
+		"name": "Vipper og bryn",
+		"image": "images/products/eyelashes.jpg",
+		"categories": [
+			{
+				"name": "Microblading",
+				"description": "Microblading er den mest naturlige formen for permanent make-up. Vi jobber med en manuell håndmetode for å utføre permanent make-up med størst mulig presisjon. Fargen blir påført med jevne linjer ned i huden. <br><br>Fargen svekkes gradvis gjennom tiden ca 2 til 4 år etter behandling. Etter denne tiden har du muligheten til å endre på brynene dersom du ønsker det. Dagens metoder med microblading lager individuelle hårstrå som er tegnet inn for å etterligne dine egne brynhår. Dette resulterer i et forbedret utseende. Microblading gir en illusjon av fyldigere, lengre og velformede bryn.",
+				"displayDescription": false,
+				"products": [
+					{
+						"name": "Hele bryn",
+						"price": 3900
+					},
+					{
+						"name": "Korrigering",
+						"description": "Utfylling av hull i bryn",
+						"price": 2500
+					},
+					{
+						"name": "Påfyll",
+						"description": "Etter 4-6 uker",
+						"price": 1500
+					},
+					{
+						"name": "Påfyll",
+						"description": "Etter 1-3 år",
+						"price": 2500
+					},
+					{
+						"name": "Konsultasjonstime",
+						"description": "30 min",
+						"price": 300
+					}
+				]
+			},
+			{
+				"name": "Farging",
+				"description": "Vi farger dine vipper og/eller bryn med permalash permanent farge. Vi tilpasser fargen utifra ønske og dine naturlige farger. Vippefargen kan sitte i 3 til 6 uker, mens brynfargen normalt bleker litt tidligere. Bryn vokses /nappes i fasonger tilpasset ditt ansikt.",
+				"displayDescription": false,
+				"products": [
+					{
+						"name": "Permanentfarging",
+						"description": "Vipper og bryn (inkl. voks eller napp)",
+						"price": 450
+					},
+					{
+						"name": "Vipper med forming av bryn",
+						"price": 350
+					},
+					{
+						"name": "Vipper",
+						"price": 290
+					},
+					{
+						"name": "Bryn med forming",
+						"price": 350
+					}
+				]
+			},
+			{
+				"name": "Vippe extensions",
+				"products": [
+					{
+						"name": "Vippe extension",
+						"description": "2 timer",
+						"price": 1500
+					},
+					{
+						"name": "Påfyll",
+						"description": "Etter 2, 3 eller 4 uker",
+						"price": 600
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Voksbehandling",
+		"image": "images/products/hair_removal.jpg",
+		"description": "Hvis du barberer deg må du la høvelen ligge å hvile i 2 uker før behandling, slik at det er noe å “ta i”. Unngå soling 24 timer før behandling. Unngå såpe og sterke parfymerte kremer etter behandling. De fleste vokser seg hver 4.-5. uke avhengig av hårvekst. Det anbefales å skrubbe kroppen 1-2 ganger pr uke for å unngå inngrodde hår.",
+		"products": [
+			{
+				"name": "Legger",
+				"price": 370
+			},
+			{
+				"name": "Lår",
+				"price": 370
+			},
+			{
+				"name": "Legger/lår/bikini",
+				"price": 850
+			},
+			{
+				"name": "Bikini",
+				"price": 250
+			},
+			{
+				"name": "Armer",
+				"price": 370
+			},
+			{
+				"name": "Armhuler",
+				"price": 250
+			},
+			{
+				"name": "Rygg",
+				"price": 450
+			},
+			{
+				"name": "Hake",
+				"price": 180
+			},
+			{
+				"name": "Overleppe",
+				"price": 170
+			},
+			{
+				"name": "Hele ansikt",
+				"price": 220
+			},
+			{
+				"name": "Forming av bryn (voks eller napp)",
+				"price": 190
+			}
+		]
+	}
+]
