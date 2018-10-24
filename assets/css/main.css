@@ -3219,7 +3219,8 @@ section#one header.major h2 {
 }
 
 section#two {
-  padding: 0 5em 0 5em;
+  margin-bottom: 3.5em;
+  padding: 0 5em 1em 5em;
   background-color: white;
   color: black;
 }
@@ -3305,52 +3306,85 @@ section#two .flex-space-between {
 section#two .text-right {
   text-align: right;
 }
-section#two .map-wrapper .googleMap {
+
+.map-wrapper {
+  padding-top: 0.5em;
+}
+.map-wrapper .googleMap {
   position: relative;
   height: 0;
   padding-bottom: 14em;
 }
-section#two .map-wrapper .googleMap .google-map-iframe {
+.map-wrapper .googleMap .google-map-iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 20em;
 }
-section#two .wrapper.style3 {
+
+.text-center {
+  text-align: center;
+}
+
+section#products-wrapper {
+  background-color: white;
+}
+section#products-wrapper div.row div.col-6 {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+section#products-wrapper div.row div.col-6 div.product-card {
+  box-shadow: 1px 1px 3px 0px #ccc;
+  padding: 2em 5em 2em 5em;
+}
+section#products-wrapper div.row div.col-6 div.product-card div.product-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+section#products-wrapper div.row div.col-6 div.product-card div.product-description {
+  box-shadow: 0px -1px 0px 0px #80808026;
+  color: #8e8892;
+  font-size: 0.7em;
+}
+
+section.wrapper.style3 {
+  margin-bottom: 2.5em;
   background-color: #a3479f;
 }
-section#two .wrapper.style3 .inner .major p {
+section.wrapper.style3 .inner .major p {
   color: white;
 }
-section#two .wrapper.style3 .inner div.row div.col-6 div.employee-card {
+section.wrapper.style3 .inner div.row div.col-6 div.employee-card {
   margin-top: -4em;
   background-color: white;
 }
-section#two .wrapper.style3 .inner div.row div.col-6 div.employee-card:hover div.employee-image-container div.employee-image {
+section.wrapper.style3 .inner div.row div.col-6 div.employee-card:hover div.employee-image-container div.employee-image {
   filter: grayscale(0%);
 }
-section#two .wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-info-container {
+section.wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-info-container {
   height: 20em;
   margin-top: 3em;
   padding-top: 4em;
 }
-section#two .wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-info-container h1 {
+section.wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-info-container h1 {
   color: black !important;
 }
-section#two .wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-info-container p.employee-description {
+section.wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-info-container p.employee-description {
   font-size: 0.8em;
   color: black;
   padding: 0 2em 3em 2em;
 }
-section#two .wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-image-container {
+section.wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-image-container {
   background-color: #a3479f;
   display: flex;
   justify-content: center;
   height: 10em;
   width: 100%;
 }
-section#two .wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-image-container div.employee-image {
+section.wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-image-container div.employee-image {
   box-shadow: 0px 0px 0px 1px #a443a1;
   border: 3px solid white;
   height: 13em;
