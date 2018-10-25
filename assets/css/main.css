@@ -3246,22 +3246,15 @@ section#two .smaller-text {
 }
 section#two .flex-box {
   display: flex;
-}
-section#two .product-info {
   flex-direction: column;
+  padding: 1em;
+  box-shadow: 1px 3px 18px -4px #ada7adeb;
+}
+section#two .flex-box div.product-image-container {
   display: flex;
-  justify-content: end;
+  justify-content: center;
 }
-section#two .image-left {
-  background-position: left !important;
-}
-section#two .image-bottom {
-  background-position: bottom;
-}
-section#two .image-right {
-  background-position: right;
-}
-section#two .product-image {
+section#two .flex-box div.product-image-container div.product-image {
   /*height: 200px !important;
   width: 200px !important;*/
   height: 10em;
@@ -3274,28 +3267,51 @@ section#two .product-image {
   justify-content: center;
   align-items: flex-end;
 }
-section#two .product-image:hover {
+section#two .flex-box div.product-image-container div.product-image:hover {
   cursor: pointer;
 }
-section#two .product-image:hover a {
+section#two .flex-box div.product-image-container div.product-image:hover a {
   background-color: #c16fbd;
   color: white !important;
 }
-section#two .product-image div {
+section#two .flex-box div.product-image-container div.product-image div {
   width: 100%;
   text-align: center;
   display: flex;
   align-items: flex-end;
   border-top: 1px solid #1d242a1c;
 }
-section#two .product-image div a {
+section#two .flex-box div.product-image-container div.product-image div a {
   color: black !important;
   background-color: #ffffffd9;
   border-radius: 0px;
 }
-section#two .product-image div a:hover {
+section#two .flex-box div.product-image-container div.product-image div a:hover {
   background-color: #c16fbd;
   color: white !important;
+}
+section#two .flex-box div.product-info {
+  flex-direction: column;
+  display: flex;
+  justify-content: end;
+  padding: 1em;
+}
+section#two .flex-box div.product-info div.product-title {
+  display: flex;
+  justify-content: center;
+}
+section#two .flex-box div.product-info div.product-description {
+  display: flex;
+  justify-content: center;
+}
+section#two .image-left {
+  background-position: left !important;
+}
+section#two .image-bottom {
+  background-position: bottom;
+}
+section#two .image-right {
+  background-position: right;
 }
 section#two .product-price-button {
   box-shadow: 1px 1px 3px 0px #d3d4e4 !important;
@@ -3372,6 +3388,9 @@ section.wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-i
 section.wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-info-container h1 {
   color: black !important;
 }
+section.wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-info-container p.title {
+  color: black !important;
+}
 section.wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-info-container p.employee-description {
   font-size: 0.8em;
   color: black;
@@ -3394,6 +3413,7 @@ section.wrapper.style3 .inner div.row div.col-6 div.employee-card div.employee-i
   background-position: inherit;
   background-position-x: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 div.product-category {
