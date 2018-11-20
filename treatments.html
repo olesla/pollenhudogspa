@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Pollen hud & spa</title>
+		<title>Behandlinger - Pollen hud & spa</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -29,10 +29,10 @@
 									<div id="menu">
 										<ul>
 											<li><a href="index.html">Pollen hud & spa</a></li>
-											<li><a href="#">Bestill time</a></li>
+											<li><a href="http://booking.kasseservice.no/pollen-hud-spa" target="_blank">Bestill time</a></li>
 											<li><a href="treatments.html">Behandlinger</a></li>
-											<li><a href="elements.html">Gavekort</a></li>
-											<li><a href="#">Kontakt</a></li>
+											<li><a href="gavekort.html">Gavekort</a></li>
+											<li><a href="kontakt.html">Kontakt</a></li>
 										</ul>
 									</div>
 								</li>
@@ -69,8 +69,9 @@
 												<div v-for="category in treatment.categories" class="sub-category-container">
 													<h5 v-on:click="category.displayDescription = !category.displayDescription" class="pointer">
 														{{ category.name }} 
-														<i v-if="category.description || false" v-bind:class="{ 'fa-angle-down': !category.displayDescription, 'fa-angle-up': category.displayDescription }" class="fa fa-fw "></i>
+														<span class="read-more-button" v-if="category.description || false">Mer <i class="fa fa-fw" v-bind:class="{ 'fa-angle-down': !category.displayDescription, 'fa-angle-up': category.displayDescription }"></i></span>
 													</h5>
+
 													<span class="description" v-html="category.description || ''" v-if="category.displayDescription"></span>
 													<table class="product-table">
 														<tbody>
@@ -92,14 +93,12 @@
 				<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						<li><a href="https://www.facebook.com/Pollen-hud-spa-1614127845474314/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Ole Christian Slaattene</li>
+						<li>Org.nr 992 206 888</li>
+						<li>Basert på Skel.io, enkelte elementer hentet fra <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</footer>
 			</div>

@@ -44,7 +44,7 @@
 	{
 		"name": "Massasje",
 		"image": "images/products/massage.jpg",
-		"description": "Behagelig og beroligende massasje med essensielle oljer. Løser opp anspent muskulatur, og stimulerer sansene med behagelige dufter og perfekt avkobling i en hektisk hverdag. <br><br> I kroppsbehandlingene bruker vi i første rekke de nydelige Kalahari-produktene. Spør oss gjerne om veiledning vedrørende ulike kroppsbehandlinger. Vi skreddersyr for deg.",
+		"description": "Behagelig og beroligende massasje med essensielle oljer. Løser opp anspent muskulatur, og stimulerer sansene med behagelige dufter og perfekt avkobling i en hektisk hverdag.",
 		"products": [
 			{
 				"name": "Aroma-massasje",
@@ -109,25 +109,18 @@
 		"image": "images/products/facial.jpg",
 		"categories": [
 			{
-				"name": "Ansiktsbehandling / dyprens",
-				"description": "Behandlingen har fokus på å dyprense huden, men er også en fin start for deg som er usikker på hva huden din trenger. Behandlingen skreddersys etter dine behov, og består av rens, peeling, damp, maske og avsluttende krem. Anbefales også som jevnlig pleie og 6-8 ukers mellom rom. Denne behandlingen egner seg også ved uren hud på rygg.",
+				"name": "Ansiktsbehandlinger",
+				"description": "Behandlingen har fokus på å dyprense huden, men er også en fin start for deg som er usikker på hva huden din trenger. Behandlingen skreddersys etter dine behov, og består av rens, peeling, damp, maske og avsluttende krem. Anbefales også som jevnlig pleie og 6-8 ukers mellom rom.",
 				"displayDescription": false,
 				"products": [
 					{
 						"name": "Ansiktsbehandling",
 						"description": "50 minutter. Dyprens",
 						"price": 690
-					}
-				]
-			},
-			{
-				"name": "Ansiktsbehandling med massasje",
-				"description": "Behandlingen har fokus på å dyprense huden, men er også en fin start for deg som er usikker på hva huden din trenger. Behandlingen skreddersys etter dine behov, og består av rens, peeling, damp, utklemming, maske, ansikts- og skuldermassasje og avsluttende krem. Anbefales også som jevnlig pleie med 6 til 8 ukers mellomrom.",
-				"displayDescription": false,
-				"products": [
+					},
 					{
 						"name": "Ansiktsbehandling med massasje",
-						"description": "80 minutter. Skulder og ansikt",
+						"description": "80 minutter. Dyprens med ansikt- og skuldermassasje",
 						"price": 890
 					}
 				]
@@ -184,7 +177,7 @@
 				]
 			},
 			{
-				"name": "Power Peel / Power Lift",
+				"name": "Power Peel",
 				"description": "Dyptgående peelingbehandling for alle hudtyper, store porer, hyperkeratoser, fet/blank hud, solskadet hud, linjer og rynker.<br><br> Microneedling, som er smertefri i forhold til andre typer. Perforerer huden 100.000 ganger pr. behandling – skader heller ikke huden.",
 				"displayDescription": false,
 				"products": [
@@ -202,12 +195,26 @@
 						"name": "Power peel, lift og spesialmaske",
 						"description": "80 minutter.",
 						"price": 1490
-					},
+					}
+				]
+			},
+			{
+				"name": "Peel-in",
+				"description": "",
+				"displayDescription": false,
+				"products": [
 					{
 						"name": "Peel-in",
 						"description": "75 minutter",
 						"price": 990
-					},
+					}
+				]
+			},
+			{
+				"name": "Easy TCA Peel",
+				"description": "",
+				"displayDescription": false,
+				"products": [
 					{
 						"name": "Easy TCA Peel",
 						"description": "Pigmentflekk",
@@ -323,6 +330,16 @@
 		"image": "images/products/hair_removal.jpg",
 		"description": "Hvis du barberer deg må du la høvelen ligge å hvile i 2 uker før behandling, slik at det er noe å “ta i”. Unngå soling 24 timer før behandling. Unngå såpe og sterke parfymerte kremer etter behandling. De fleste vokser seg hver 4.-5. uke avhengig av hårvekst. Det anbefales å skrubbe kroppen 1-2 ganger pr uke for å unngå inngrodde hår.",
 		"products": [
+			{
+				"name": "Brasiliansk",
+				"description": "Med lycon voks som består kun av de beste råvarer tilgjengelig på markedet",
+				"price": 650
+			},
+			{
+				"name": "Brasiliansk andre gang",
+				"description": "Med lycon voks som består kun av de beste råvarer tilgjengelig på markedet",
+				"price": 550
+			},
 			{
 				"name": "Legger",
 				"price": 370

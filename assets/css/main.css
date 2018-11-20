@@ -3345,24 +3345,24 @@ section#two .text-right {
 section#products-wrapper {
   background-color: white;
 }
-section#products-wrapper div.row div.col-6 {
+section#products-wrapper div.row div.col-4 {
   display: flex;
   justify-content: center;
   padding: 2em;
 }
-section#products-wrapper div.row div.col-6 div.product-card {
+section#products-wrapper div.row div.col-4 div.product-card {
   box-shadow: 1px 1px 3px 0px #ccc;
-  padding: 2em 5em 2em 5em;
+  padding: 2em 1.5em 2em 1.5em;
 }
-section#products-wrapper div.row div.col-6 div.product-card div.product-image {
+section#products-wrapper div.row div.col-4 div.product-card div.product-image {
   display: flex;
   justify-content: center;
   margin-bottom: 1em;
 }
-section#products-wrapper div.row div.col-6 div.product-card div.product-description {
+section#products-wrapper div.row div.col-4 div.product-card div.product-description {
   box-shadow: 0px -1px 0px 0px #80808026;
-  color: #8e8892;
-  font-size: 0.7em;
+  color: black;
+  font-size: 0.8em;
 }
 
 section.wrapper.style3 {
@@ -3431,8 +3431,9 @@ div.product-category .treatment-description {
 }
 div.product-category .description {
   display: block;
-  color: #ada7ad;
+  color: #131313;
   font-size: 80%;
+  padding: 2em;
 }
 div.product-category div.product-category-container {
   display: flex;
@@ -3492,7 +3493,29 @@ div.product-category div.product-category-container div.product-category-left im
 }
 
 .front-page-product {
-  max-height: 10em;
+  max-height: 5em;
+  width: 100%;
+  object-fit: contain;
+}
+
+section#our_products {
+  background-color: white !important;
+  padding: 1em 0 1em 0;
+}
+section#our_products div.inner header.major {
+  margin: 0.5em 0 0.5em 0;
+}
+section#our_products div.inner header.major h2 {
+  color: black;
+}
+
+.read-more-button {
+  font-size: 0.8em;
+  float: right;
+  background-color: #c16fbd;
+  color: white;
+  padding: 0em 0.5em 0em 0.5em;
+  border: 1px solid #a3479f8c;
 }
 
 /*# sourceMappingURL=main.css.map */
