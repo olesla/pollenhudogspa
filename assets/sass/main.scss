@@ -1996,11 +1996,10 @@
 					/*height: 200px !important;
 					width: 200px !important;*/
 					height: 10em;
-					width: 10em;
+					width: 14em;
 					border-radius: 5px;
 					box-shadow: 1px 1px 3px 0px grey;
 					background-size: cover;
-					margin-right: 2em;
 					display: flex;
 					justify-content: center;
 					align-items: flex-end;
@@ -2262,4 +2261,8 @@
 
 	.pointer {
 		cursor: pointer;
+	}
+
+	.front-page-product {
+		max-height: 10em;
 	}
