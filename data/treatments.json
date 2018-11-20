@@ -7,7 +7,7 @@
 			{
 				"name": "Enkel manikyr med lakk",
 				"description": "45 minutter",
-				"price": 490
+				"price": 550
 			},
 			{
 				"name": "Enkel manikyr med gelish-lakk",
@@ -15,7 +15,7 @@
 				"price": 590
 			},
 			{
-				"name": "Fjerning av gelish",
+				"name": "Fjerning av gelish-lakk",
 				"price": 250
 			}
 		]
@@ -31,7 +31,7 @@
 				"price": 650
 			},
 			{
-				"name": "Fotpleie med gelish",
+				"name": "Fotpleie med gelish-lakk",
 				"description": "Harmony gelish er en permanent lakk som sitter i opp til 3 uker! Dette er en perfekt behandling for deg som ønsker maks holdbarhet. Flott på naturlige eller kunstige negler, både på hender og føtter.",
 				"price": 890
 			},
@@ -49,12 +49,12 @@
 			{
 				"name": "Aroma-massasje",
 				"description": "60 minutter",
-				"price": 870
+				"price": 890
 			},
 			{
 				"name": "Aroma-massasje",
 				"description": "30 minutter. Rygg og nakke",
-				"price": 490
+				"price": 520
 			}
 		]
 	},
@@ -74,7 +74,7 @@
 			},
 			{
 				"name": "Topp til tå kroppspeeling",
-				"description": "50 minutter. Innpakning med maske og varmeteppe",
+				"description": "50 minutter. Innpakning med maske og varmeteppe inkl hodebunnsmassasje",
 				"price": 990
 			},
 			{
@@ -143,7 +143,7 @@
 					{
 						"name": "EA pro pensling",
 						"description": "20 minutter",
-						"price": 490
+						"price": 590
 					}
 				]
 			},
@@ -155,7 +155,12 @@
 					{
 						"name": "Liftosome",
 						"description": "75 minutter",
-						"price": 990
+						"price": 1090
+					},
+					{
+						"name": "Age summum",
+						"description": "75 minutter",
+						"price": 1090
 					}
 				]
 			},
@@ -206,7 +211,7 @@
 					{
 						"name": "Peel-in",
 						"description": "75 minutter",
-						"price": 990
+						"price": 1090
 					}
 				]
 			},
@@ -292,7 +297,7 @@
 					{
 						"name": "Permanentfarging",
 						"description": "Vipper og bryn (inkl. voks eller napp)",
-						"price": 450
+						"price": 490
 					},
 					{
 						"name": "Vipper med forming av bryn",
@@ -304,7 +309,7 @@
 					},
 					{
 						"name": "Bryn med forming",
-						"price": 350
+						"price": 390
 					}
 				]
 			},
@@ -314,7 +319,7 @@
 					{
 						"name": "Vippe extension",
 						"description": "2 timer",
-						"price": 1500
+						"price": 1600
 					},
 					{
 						"name": "Påfyll",
