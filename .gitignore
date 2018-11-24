@@ -1,0 +1,10 @@
+/assets/css/*
+node_modules/
+.idea/
+composer.lock
+.DS_Store
+package-lock.json
+.vscode/
+access.log
+error.log
+
