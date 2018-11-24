@@ -61,6 +61,7 @@
 	{
 		"name": "Spabehandling",
 		"image": "images/products/spa.jpg",
+		"description": "Vi har et bredt utvalg av spabehandlinger, og tilbyr diverse ulike behandlinger tilpasset ditt behov.",
 		"products": [
 			{
 				"name": "Boblebad med salter eller eteriske oljer",
