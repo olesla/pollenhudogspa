@@ -49,8 +49,8 @@
 						<section class="wrapper style5">
 							<div class="inner">
 								<div id="app">
-									<div v-for="treatment in treatments" class="product-category">
-										<h2>{{ treatment.name }}</h2>
+									<div v-for="treatment in treatments" class="product-category" :id="treatment.name.replace(' ', '-')">
+										<h2>{{ treatment.name.replace('-', ' ') }}</h2>
 										<span class="treatment-description" v-html="treatment.description || ''"></span>
 										<div class="product-category-container">
 											<div class="product-category-left" v-bind:style="{ backgroundImage: 'url(' + treatment.image + ')' }">

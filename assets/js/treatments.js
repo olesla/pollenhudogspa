@@ -4,10 +4,24 @@ el: '#app',
 		treatments: [],
 	},
 	mounted () {
-		let self = this;
-		$.getJSON('/data/treatments.json', function(data) { self.treatments = data });
+		
+		
+		$.getJSON('/data/treatments.json', (data) => {
+			this.treatments = data;
+			this.scrollToSection();
+		});
 	},
 	methods: {
+		scrollToSection () {
+			let hash = window.location.hash.substr(1);
+			if (hash != '') {
+				setTimeout(() => {
+					$('html, body').animate({
+						scrollTop: $('#' + hash).offset().top
+					}, 200);
+				}, 100);
+			}
+		},
 		formatPrice (number) {
 			return new Intl.NumberFormat('de-DE', {}).format(number);
 		},

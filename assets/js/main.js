@@ -6,6 +6,11 @@
 
 (function($) {
 
+	$('.product-link').on('click', function(){
+		let product = $(this).data('product');
+		location.href = "/treatments.html#" + product;
+	});
+
 	var	$window = $(window),
 		$body = $('body'),
 		$wrapper = $('#page-wrapper'),
