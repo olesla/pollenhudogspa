@@ -60,7 +60,7 @@
 													<tbody>
 														<tr v-for="product in treatment.products">
 															<td>{{ product.name }} <span class="description">{{ product.description || '' }}</span></td>
-															<td class="text-right">{{ formatPrice(product.price) }}</td>
+															<td nowrap class="text-right">{{ formatPrice(product.price) }} <span v-if="product.secondary_price">/ {{ formatPrice(product.secondary_price) }}</span></td>
 														</tr>
 													</tbody>
 												</table>
@@ -77,7 +77,7 @@
 														<tbody>
 															<tr v-for="product in category.products">
 																<td>{{ product.name }} <span class="description">{{ product.description || '' }}</span></td>
-																<td class="text-right">{{ formatPrice(product.price) }}</td>
+																<td nowrap class="text-right">{{ formatPrice(product.price) }} <span v-if="product.secondary_price">/ {{ formatPrice(product.secondary_price) }}</span></td>
 															</tr>
 														</tbody>
 													</table>

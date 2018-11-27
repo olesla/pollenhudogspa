@@ -3444,8 +3444,8 @@ div.product-category div.product-category-container {
   padding: 2em;
 }
 div.product-category div.product-category-container div.table-wrapper {
-  /*width: 100%;*/
-  width: 60%;
+  width: 100%;
+  /*width: 60%;*/
   text-align: center;
 }
 div.product-category div.product-category-container div.table-wrapper h5 {
@@ -3473,6 +3473,7 @@ div.product-category div.product-category-container div.table-wrapper .sub-categ
   margin-bottom: 0.5em;
 }
 div.product-category div.product-category-container div.product-category-left {
+  margin-right: 1em;
   width: 35%;
   display: flex;
   justify-content: center;

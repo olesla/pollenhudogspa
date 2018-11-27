@@ -12,7 +12,8 @@
 			{
 				"name": "Enkel manikyr med gelish-lakk",
 				"description": "Harmony gelish er en permanent lakk som sitter i opp til 3 uker! Dette er en perfekt behandling for deg som ønsker maks holdbarhet. Flott på naturlige eller kunstige negler, både på hender og føtter. Varer opptil 2-3 uker",
-				"price": 590
+				"price": 590,
+				"secondary_price": 690
 			},
 			{
 				"name": "Fjerning av gelish-lakk",
@@ -224,7 +225,8 @@
 					{
 						"name": "Easy TCA Peel",
 						"description": "Pigmentflekk",
-						"price": 400
+						"price": 400,
+						"secondary_price": 700
 					}
 				]
 			}
@@ -325,7 +327,8 @@
 					{
 						"name": "Påfyll",
 						"description": "Etter 2, 3 eller 4 uker",
-						"price": 600
+						"price": 600,
+						"secondary_price": 900
 					}
 				]
 			}
@@ -384,7 +387,8 @@
 			},
 			{
 				"name": "Hele ansikt",
-				"price": 220
+				"price": 220,
+				"secondary_price": 300
 			},
 			{
 				"name": "Forming av bryn (voks eller napp)",
