@@ -23,6 +23,10 @@
 		xsmall:   ( null,    480px  ),
 	));
 
+	$break-small: 320px;
+	$break-large: 1200px;
+
+
 // Reset.
 // Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
 
@@ -2204,6 +2208,9 @@
 		}
 		div.product-category-container {
 			display: flex;
+			@media screen and (max-width: $break-large) {
+				display: block;
+			}
 			justify-content: space-around;
 			align-content: flex-end;
 	
@@ -2241,6 +2248,9 @@
 				}
 			}
 			div.product-category-left {
+				@media screen and (max-width: $break-large) {
+					margin: 0 auto 1em;
+				}
 				margin-right: 1em;
 				width: 35%;
 				display: flex;
