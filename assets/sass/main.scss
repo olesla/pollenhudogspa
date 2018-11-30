@@ -23,7 +23,7 @@
 		xsmall:   ( null,    480px  ),
 	));
 
-	$break-small: 320px;
+	$break-small: 650px;
 	$break-large: 1200px;
 
 
@@ -1952,6 +1952,7 @@
 	}
 
 	.product-table {
+		padding-left: 1em;
 		tbody {
 			tr {
 				td.text-right {
@@ -1989,6 +1990,7 @@
 		}
 	
 		.flex-box {
+			height: 23em;
 			display: flex;
 			flex-direction: column;
 			padding: 1em;
@@ -2209,7 +2211,7 @@
 		}
 		div.product-category-container {
 			display: flex;
-			@media screen and (max-width: $break-large) {
+			@media screen and (max-width: $break-small) {
 				display: block;
 			}
 			justify-content: space-around;

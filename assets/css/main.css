@@ -3214,6 +3214,9 @@ section#one header.major h2 {
   color: black;
 }
 
+.product-table {
+  padding-left: 1em;
+}
 .product-table tbody tr td.text-right {
   text-align: right;
 }
@@ -3245,6 +3248,7 @@ section#two .smaller-text {
   font-size: 0.8em;
 }
 section#two .flex-box {
+  height: 23em;
   display: flex;
   flex-direction: column;
   padding: 1em;
@@ -3444,7 +3448,7 @@ div.product-category div.product-category-container {
   background-color: white;
   padding: 2em;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 650px) {
   div.product-category div.product-category-container {
     display: block;
   }
