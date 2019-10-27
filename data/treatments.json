@@ -7,13 +7,17 @@
 			{
 				"name": "Enkel manikyr med lakk",
 				"description": "45 minutter",
-				"price": 550
+				"price": 570
 			},
 			{
 				"name": "Enkel manikyr med gelish-lakk",
 				"description": "Harmony gelish er en permanent lakk som sitter i opp til 3 uker! Dette er en perfekt behandling for deg som ønsker maks holdbarhet. Flott på naturlige eller kunstige negler, både på hender og føtter. Varer opptil 2-3 uker",
-				"price": 590,
-				"secondary_price": 690
+				"price": 620
+			},
+			{
+				"name": "Enkel manikyr med fransk gelish-lakk",
+				"description": "",
+				"price": 720
 			},
 			{
 				"name": "Fjerning av gelish-lakk",
@@ -29,12 +33,12 @@
 			{
 				"name": "Fotpleie",
 				"description": "45 minutter",
-				"price": 650
+				"price": 690
 			},
 			{
 				"name": "Fotpleie med gelish-lakk",
 				"description": "Harmony gelish er en permanent lakk som sitter i opp til 3 uker! Dette er en perfekt behandling for deg som ønsker maks holdbarhet. Flott på naturlige eller kunstige negler, både på hender og føtter.",
-				"price": 890
+				"price": 920
 			},
 			{
 				"name": "Neglelakk",
@@ -87,7 +91,7 @@
 			{
 				"name": "Spa-opplevelsen luksus",
 				"description": "3 timer og 20 minutter. Topp til tå-kroppsspeeling, innpakning med maske og varmeteppe, hel kroppsmassasje, ansiktsbehandling tilpasset hudtype",
-				"price": 2450
+				"price": 2600
 			},
 			{
 				"name": "Total velvære",
@@ -118,51 +122,60 @@
 					{
 						"name": "Ansiktsbehandling",
 						"description": "50 minutter. Dyprens",
-						"price": 690
+						"price": 750
 					},
 					{
 						"name": "Ansiktsbehandling med massasje",
 						"description": "80 minutter. Dyprens med ansikt- og skuldermassasje",
-						"price": 890
+						"price": 950
 					}
 				]
 			},
 			{
-				"name": "Elizabeth Arden PRO",
-				"description": "Elizabeth Arden PROs profesjonelle behandlinger er utviklet for å gi deg en pangstart på hudpleierutinen sammen med Elizabth Arden PROs hjemmeprodukter. Hensikten er å øke hjemmeproduktenes effekt, slik at resultatet synes raskest. De høyeffektive profesjonelle produktene har to funksjoner; huden ser yngre ut, samtidig som de tar deg ett steg videre i behandlingen.<br><br> Styrken til Elizabeth Arden PROs behandlinger er kjemiske peelinger for ulike hudproblem utviklet for å gi raske resulteter uten negative effekter. I hver tilpassede behandling inkluderes det et personlig hudpleieprogram, for å sikre at de mest aktuelle produktene brukes for å gi maksimale effekter.",
+				"name": "Priori",
+				"description": "Prioris profesjonelle behandlinger er utviklet for å gi deg en pangstart på hudpleierutinen sammen med Prioris hjemmeprodukter. Hensikten er å øke hjemmeproduktenes effekt, slik at resultatet synes raskest. De høyeffektive profesjonelle produktene har to funksjoner; huden ser yngre ut, samtidig som de tar deg ett steg videre i behandlingen.<br><br> Styrken til Elizabeth Arden PROs behandlinger er kjemiske peelinger for ulike hudproblem utviklet for å gi raske resulteter uten negative effekter. I hver tilpassede behandling inkluderes det et personlig hudpleieprogram, for å sikre at de mest aktuelle produktene brukes for å gi maksimale effekter.",
 				"displayDescription": false,
 				"products": [
 					{
-						"name": "EA pro behandlig m/massasje",
+						"name": "Black Carpet",
 						"description": "75 minutter",
-						"price": 990
+						"price": 1050
 					},
 					{
-						"name": "EA pro behandlig",
+						"name": "Red Carpet",
 						"description": "50 minutter",
 						"price": 850
 					},
 					{
-						"name": "EA pro pensling",
+						"name": "Peel it 30% syre pensling",
 						"description": "20 minutter",
 						"price": 590
+					},
+					{
+						"name": "Peel it 50% syre pensling",
+						"description": "",
+						"price": 620
 					}
 				]
 			},
 			{
-				"name": "Liftosome",
-				"description": "Guinot behandlingen er en glødgivende og oppstrammende behandling som gir mye næring til huden. Vi bruker et pro collagen consentrat med en thermolift maske over. De aktive ingrediensene trekker dypt ned i huden og gir deg en ny yngre hud.",
+				"name": "Guinot spesial behandlinger",
 				"displayDescription": false,
 				"products": [
 					{
-						"name": "Liftosome",
-						"description": "75 minutter",
-						"price": 1090
+						"name": "Liftsummum",
+						"description": "75 minutter. Liftsummum er en oppstrammende behandling for ansikt, hals og dècolletè. Behandlingen \"løfter\" huden, definerer ansiktskonturene og glatter ut linjer. Vi jobber med å gjenopprette fylde og volum ved hjelp av gode massasjer og ett serum som vil stimulere collagenproduksjonen, tilføre masse fukt og hemme nedbrytingen av elastin. Behandlingen blir avsluttet med en maske som glatter ut linjer og har en umiddelbar \"løftende\" effekt.",
+						"price": 1150
 					},
 					{
 						"name": "Age summum",
-						"description": "75 minutter",
-						"price": 1090
+						"description": "75 minutter. Age Summum er en god fuktighetsgivende behandling for en voksen hud. Behandlingen regenererer huden ved å fjerne døde hudceller og gjenoppretter glød i huden. Vi stimulerer cellefornyelsen og ved hjelp av ren C-vitamin gir vi huden masse antioksidanter, ny glød og fyller ut linjer/rynker. Behandingen avsluttes med en maske som stimulerer pro-kollagen og tilfører glød.",
+						"price": 1150
+					},
+					{
+						"name": "Hydra Peel",
+						"description": "75 minutter. Hydra Peel er en hudfornyende ansiktsbehandling. Behandlingen jobber med å redusere synlige tegn på aldring, få liv i gusten hud og har en lysnede effekt på pigmentering. Vi jobber med en ph-syre som eksfolierer dypt ned i huden og bekjemper pigmentering, og deretter får du en god massasje som regenererer huden og balanserer hudens PH-verdi. Behandlingen avsluttes med en god kjølende maske, som gir næring og beskyttelse til huden.",
+						"price": 1150
 					}
 				]
 			},
@@ -174,12 +187,12 @@
 					{
 						"name": "Guinot-hydradermie",
 						"description": "80 minutter",
-						"price": 1090
+						"price": 1150
 					},
 					{
 						"name": "Guinot-hydradermie luksus",
 						"description": "110 minutter",
-						"price": 1290
+						"price": 1350
 					}
 				]
 			},
@@ -191,7 +204,7 @@
 					{
 						"name": "Power peel-behandling",
 						"description": "50 minutter",
-						"price": 990
+						"price": 1050
 					},
 					{
 						"name": "Power peel og lift behandling",
@@ -202,31 +215,6 @@
 						"name": "Power peel, lift og spesialmaske",
 						"description": "80 minutter.",
 						"price": 1490
-					}
-				]
-			},
-			{
-				"name": "Peel-in",
-				"description": "",
-				"displayDescription": false,
-				"products": [
-					{
-						"name": "Peel-in",
-						"description": "75 minutter",
-						"price": 1090
-					}
-				]
-			},
-			{
-				"name": "Easy TCA Peel",
-				"description": "",
-				"displayDescription": false,
-				"products": [
-					{
-						"name": "Easy TCA Peel",
-						"description": "Pigmentflekk",
-						"price": 400,
-						"secondary_price": 700
 					}
 				]
 			}
@@ -300,35 +288,44 @@
 					{
 						"name": "Permanentfarging",
 						"description": "Vipper og bryn (inkl. voks eller napp)",
-						"price": 490
+						"price": 520
 					},
 					{
 						"name": "Vipper med forming av bryn",
-						"price": 350
+						"price": 390
 					},
 					{
 						"name": "Vipper",
-						"price": 290
+						"price": 320
+					},
+					{
+						"name": "Vippekur",
+						"price": 50
 					},
 					{
 						"name": "Bryn med forming",
-						"price": 390
+						"price": 420
 					}
 				]
 			},
 			{
-				"name": "Vippe extensions",
+				"name": "Vippebehandlinger",
 				"products": [
 					{
-						"name": "Vippe extension",
+						"name": "Vippeextensions",
 						"description": "2 timer",
-						"price": 1600
+						"price": 1700
 					},
 					{
 						"name": "Påfyll",
 						"description": "Etter 2, 3 eller 4 uker",
-						"price": 600,
+						"price": 700,
 						"secondary_price": 900
+					},
+					{
+						"name": "G.E.L Lashes Keratin Vippeløft",
+						"description": "G.E.L. Lastes vippeløft går ut på å få løftet dine naturlige vipper. Under behandlingen får du ett platinum antioksidant serum under øynene som en god anti-age behandling. Vi farger også vippene, der blir fargen blandet med en økologisk vippekur, dette vil gi styrke og næring til vippene. Vi avslutter behandlingen med en keratin mascara som gir fylde til vippene og holder løftet lengre.",
+						"price": 920
 					}
 				]
 			}
@@ -342,28 +339,23 @@
 			{
 				"name": "Brasiliansk",
 				"description": "Med lycon voks som består kun av de beste råvarer tilgjengelig på markedet",
-				"price": 650
-			},
-			{
-				"name": "Brasiliansk andre gang",
-				"description": "Med lycon voks som består kun av de beste råvarer tilgjengelig på markedet",
-				"price": 550
+				"price": 570
 			},
 			{
 				"name": "Legger",
-				"price": 370
+				"price": 390
 			},
 			{
 				"name": "Lår",
-				"price": 370
+				"price": 390
 			},
 			{
 				"name": "Legger/lår/bikini",
-				"price": 850
+				"price": 870
 			},
 			{
 				"name": "Bikini",
-				"price": 250
+				"price": 290
 			},
 			{
 				"name": "Armer",
@@ -384,6 +376,10 @@
 			{
 				"name": "Overleppe",
 				"price": 170
+			},
+			{
+				"name": "Nese",
+				"price": 150
 			},
 			{
 				"name": "Hele ansikt",
