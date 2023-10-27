@@ -7,17 +7,27 @@
             {
                 "name": "Enkel manikyr med lakk",
                 "description": "45 minutter",
-                "price": 650
+                "price": 790
             },
             {
                 "name": "Enkel manikyr med gelish-lakk",
                 "description": "Harmony gelish er en permanent lakk som sitter i opp til 3 uker! Dette er en perfekt behandling for deg som ønsker maks holdbarhet. Flott på naturlige eller kunstige negler, både på hender og føtter. Varer opptil 2-3 uker",
-                "price": 720
+                "price": 820
+            },
+            {
+                "name": "Enkel manikyr med gelish-lakk + fjerning",
+                "description": "",
+                "price": 970
             },
             {
                 "name": "Enkel manikyr med fransk gelish-lakk",
                 "description": "",
-                "price": 820
+                "price": 920
+            },
+            {
+                "name": "Enkel manikyr med fransk gelish-lakk + fjerning",
+                "description": "",
+                "price": 1070
             },
             {
                 "name": "Fjerning av gelish-lakk",
@@ -33,12 +43,17 @@
             {
                 "name": "Fotpleie",
                 "description": "45 minutter",
-                "price": 750
+                "price": 850
             },
             {
                 "name": "Fotpleie med gelish-lakk",
                 "description": "Harmony gelish er en permanent lakk som sitter i opp til 3 uker! Dette er en perfekt behandling for deg som ønsker maks holdbarhet. Flott på naturlige eller kunstige negler, både på hender og føtter.",
-                "price": 980
+                "price": 1080
+            },
+            {
+                "name": "Fotpleie med gelish-lakk + fjerning",
+                "description": "Harmony gelish er en permanent lakk som sitter i opp til 3 uker! Dette er en perfekt behandling for deg som ønsker maks holdbarhet. Flott på naturlige eller kunstige negler, både på hender og føtter.",
+                "price": 1100
             },
             {
                 "name": "Neglelakk",
@@ -46,11 +61,11 @@
             },
             {
                 "name": "Mini fotpleie, fotbad, klipp av negler",
-                "price": 280
+                "price": 380
             },
             {
                 "name": "Mini fotpleie med gelish",
-                "price": 520
+                "price": 620
             }
         ]
     },
@@ -62,12 +77,17 @@
             {
                 "name": "Aroma-massasje",
                 "description": "60 minutter",
-                "price": 1050
+                "price": 1150
             },
             {
                 "name": "Aroma-massasje",
                 "description": "30 minutter. Rygg og nakke",
-                "price": 670
+                "price": 770
+            },
+            {
+                "name": "Klassisk massaje",
+                "description": "30 minutter.",
+                "price": 870
             }
         ]
     },
@@ -79,42 +99,42 @@
             {
                 "name": "Boblebad med salter eller eteriske oljer",
                 "description": "20 minutter",
-                "price": 420
+                "price": 520
             },
             {
                 "name": "Topp til tå kroppspeeling",
                 "description": "25 minutter",
-                "price": 670
+                "price": 770
             },
             {
                 "name": "Topp til tå kroppspeeling",
                 "description": "50 minutter. Innpakning med maske og varmeteppe inkl hodebunnsmassasje",
-                "price": 1120
+                "price": 1150
             },
             {
                 "name": "Spa-opplevelsen",
                 "description": "110 minutter. Topp til tå kroppspeeling, innpakning med maske og varmeteppe, hel kroppsmassasje",
-                "price": 1820
+                "price": 1920
             },
             {
                 "name": "Spa-opplevelsen luksus",
                 "description": "3 timer og 20 minutter. Topp til tå-kroppsspeeling, innpakning med maske og varmeteppe, hel kroppsmassasje, ansiktsbehandling tilpasset hudtype",
-                "price": 2750
+                "price": 3020
             },
             {
                 "name": "Total velvære",
                 "description": "120 minutter. Boblebad, innsmøring av hele kroppen med bodylotion, rygg- og nakkemassasje, ansiktsdyprens",
-                "price": 1790
+                "price": 1890
             },
             {
                 "name": "Topp til tå-spesial",
                 "description": "120 minutter. Boblebad, innsmøring av hele kroppen med bodylotion, avslappende fot- og leggmassasje eller hodebunnsmassasje, valgfri spesialbehandling for ansiktet",
-                "price": 1790
+                "price": 1890
             },
             {
                 "name": "Til mannen",
                 "description": "80 minutter. Ansiktsdyprens, rygg-, nakke- og hodebunnsmassasje",
-                "price": 1320
+                "price": 1450
             }
         ]
     },
@@ -130,12 +150,12 @@
                     {
                         "name": "Ansiktsbehandling",
                         "description": "50 minutter. Dyprens",
-                        "price": 950
+                        "price": 990
                     },
                     {
                         "name": "Ansiktsbehandling med massasje",
                         "description": "80 minutter. Skulder og ansikt",
-                        "price": 1150
+                        "price": 1190
                     },
                     {
                         "name": "Elektrokosmetikk, fjerne stilkvorter",
@@ -153,22 +173,22 @@
                     {
                         "name": "Black Carpet",
                         "description": "75 minutter",
-                        "price": 1250
+                        "price": 1270
                     },
                     {
                         "name": "Red Carpet",
                         "description": "50 minutter",
-                        "price": 1050
+                        "price": 1070
                     },
                     {
                         "name": "Peel it 30% syre pensling",
                         "description": "20 minutter",
-                        "price": 630
+                        "price": 650
                     },
                     {
                         "name": "Peel it 50% syre pensling",
                         "description": "20 minutter",
-                        "price": 690
+                        "price": 720
                     }
                 ]
             },
@@ -302,15 +322,15 @@
                     {
                         "name": "Permanentfarging",
                         "description": "Vipper og bryn (inkl. voks eller napp)",
-                        "price": 570
+                        "price": 580
                     },
                     {
                         "name": "Vipper med forming av bryn",
-                        "price": 470
+                        "price": 480
                     },
                     {
                         "name": "Vipper",
-                        "price": 370
+                        "price": 380
                     },
                     {
                         "name": "Vippekur",
@@ -318,11 +338,11 @@
                     },
                     {
                         "name": "Bryn med forming",
-                        "price": 470
+                        "price": 480
                     },
                     {
                         "name": "Farging av vipper og bryn (uten forming)",
-                        "price": 520
+                        "price": 530
                     },
                     {
                         "name": "Massasje under farging",
@@ -352,7 +372,7 @@
                     {
                         "name": "G.E.L Lashes Keratin Vippeløft",
                         "description": "G.E.L. Lastes vippeløft går ut på å få løftet dine naturlige vipper. Under behandlingen får du ett platinum antioksidant serum under øynene som en god anti-age behandling. Vi farger også vippene, der blir fargen blandet med en økologisk vippekur, dette vil gi styrke og næring til vippene. Vi avslutter behandlingen med en keratin mascara som gir fylde til vippene og holder løftet lengre.",
-                        "price": 970
+                        "price": 980
                     }
                 ]
             }
@@ -378,11 +398,11 @@
             },
             {
                 "name": "Legger / lår / bikini",
-                "price": 920
+                "price": 970
             },
             {
                 "name": "Legg / lår / brasiliansk",
-                "price": 1200
+                "price": 1250
             },
             {
                 "name": "Bikini",
@@ -399,7 +419,7 @@
             },
             {
                 "name": "Rygg",
-                "price": 490
+                "price": 520
             },
             {
                 "name": "Hake",
@@ -407,24 +427,24 @@
             },
             {
                 "name": "Overleppe",
-                "price": 190
+                "price": 220
             },
             {
                 "name": "Nese",
-                "price": 170
+                "price": 180
             },
             {
                 "name": "Ører",
-                "price": 170
+                "price": 180
             },
             {
                 "name": "Hele ansikt",
-                "price": 250,
-                "secondary_price": 330
+                "price": 300,
+                "secondary_price": 350
             },
             {
                 "name": "Forming av bryn (voks eller napp)",
-                "price": 350
+                "price": 360
             }
         ]
     }
